@@ -1,30 +1,65 @@
-# ☕ Projeto Cafeteria
+# ☕ Site Institucional - Cafeteria
 
-Este é um site responsivo para uma cafeteria, desenvolvido com **HTML**, **CSS** e **JavaScript**. O layout moderno combina um vídeo de fundo com seções bem organizadas e navegação fluida.
-
-### ✨ Funcionalidades
-
-- 🗺️ Modal com mapa do **Google Maps**, mostrando o endereço da cafeteria
-- 📱 Design totalmente **responsivo** para diferentes tamanhos de tela
-- 🖱️ Interação dinâmica com **JavaScript puro**
-- 🎨 Estilo elegante usando **CSS moderno** e **unidades relativas**
-- 🎥 Vídeo de fundo com sobreposição escura para destaque do conteúdo
-
-> 💡 Este projeto é ideal para treinar habilidades de front-end e demonstrar boas práticas na criação de modais e componentes responsivos.
+Site fictício de uma cafeteria, com layout moderno e interativo, desenvolvido com foco em **HTML, CSS e JavaScript**. O projeto simula uma landing page com vídeo de fundo, seções informativas e um modal para exibir o endereço com mapa integrado. Projeto responsivo.
 
 ---
 
-### 🚀 Tecnologias usadas
+## 📸 Preview do Projeto
+
+![Cafeteria Preview](./assets/img/Cafeteria.gif) <!-- Substitua pelo caminho da imagem de captura -->
+
+---
+
+## 🔗 Acesse o Projeto Online
+
+<div>
+  <a href="https://web-cafeteria-jb.netlify.app/">👉 Clique aqui</a>
+</div> 
+
+---
+
+## 🧠 Funcionalidades
+
+- Vídeo de fundo com máscara escura para destacar o conteúdo
+- Seção **Home** com chamada principal e botão de ação
+- Seção **Sobre nós** com texto e imagem descritiva
+- Modal com **Google Maps** exibindo a localização
+- Lógica de exibição/fechamento do modal usando JavaScript
+- Design responsivo e otimizado
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
 - HTML5
-- CSS3
-- JavaScript (Vanilla JS)
+- CSS3 (Custom Properties, Flexbox)
+- JavaScript (DOM e eventos)
+- Google Maps Embed API
 
-### Link do projeto:
-  <div>
-    <a href="https://web-cafeteria-jb.netlify.app/#">Clique Aqui</a>
-  </div>
+---
 
-### Video do projeto:
-  <div>
-    <img src="https://github.com/JeffersonBenetti/site-cafeteria/blob/main/assets/img/Cafeteria.gif" width="500px">
-  </div>
+## 💻 Como Executar Localmente
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+# 2. Acesse a pasta do projeto
+cd seu-repositorio
+
+# 3. Abra o arquivo index.html no navegador
+# Você pode usar o Live Server no VS Code para facilitar
+📁 Estrutura de Arquivos
+css
+Copiar
+Editar
+📁 cafeteria-landing-page/
+├── assets/
+│   ├── img/
+│   │   └── logo.png, about-img.jpg, preview.jpg
+│   └── videos/
+│       └── videoplayback.mp4
+├── index.html
+├── styles.css
+├── scripts.js
+└── README.md
