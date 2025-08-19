@@ -1,4 +1,4 @@
-# ☕ Site Institucional - Cafeteria
+## ☕ Site Institucional - Cafeteria
 
 Site fictício de uma cafeteria, com layout moderno e interativo, desenvolvido com foco em **HTML, CSS e JavaScript**. O projeto simula uma landing page com vídeo de fundo, seções informativas e um modal para exibir o endereço com mapa integrado. Projeto responsivo.
 
@@ -40,15 +40,19 @@ Site fictício de uma cafeteria, com layout moderno e interativo, desenvolvido c
 
 ## 💻 Como Executar Localmente
 
+1. Clone o repositório:
 ```bash
-# 1. Clone o repositório
 git clone https://github.com/seu-usuario/seu-repositorio.git
+```
 
-# 2. Acesse a pasta do projeto
+2. Acesse a pasta do projeto:
+```bash
 cd seu-repositorio
+```
 
-# 3. Abra o arquivo index.html no navegador
-# Você pode usar o Live Server no VS Code para facilitar
+3. Abra o arquivo index.html no navegador:
+Você pode usar o Live Server no VS Code para facilitar.
+```bash
 📁 Estrutura de Arquivos
 css
 Copiar
@@ -63,3 +67,4 @@ Editar
 ├── styles.css
 ├── scripts.js
 └── README.md
+```
